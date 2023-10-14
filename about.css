@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-container{
+    margin: 30px 110px;
+}
+
+.appetizer{
+    width: 520px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.first{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    background: blue;
+    margin-left: auto;
+    color: white;
+}
+
+.second{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h2{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    margin-top: 60px;
+}
+
+.text{
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.p{
+    margin-top: 30px;
+    display: flex;
+    gap: 6px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: lightgrey;
+}
+a:hover{
+    color: lightbluex;
+}
+
+.recipe{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-grow: 2;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
