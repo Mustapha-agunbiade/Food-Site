@@ -90,5 +90,6 @@ footer{
     height: 50px;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 

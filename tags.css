@@ -57,7 +57,7 @@ a{
 
 footer{
     background-color: black;
-    width: 100%;
+    width: 100vw;
     color: white;
     display: flex;
     height: 50px;
@@ -70,4 +70,5 @@ footer{
 a{
     text-decoration: none;
     color: lightgray;
+
 }
